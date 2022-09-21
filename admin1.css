@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    min-height: 100vh;
+}
+li{
+    list-style: none;
+    color: white;
+
+}
+h1{
+    color: white;
+}
+.side{
+    position: fixed;
+    background: blueviolet;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.side .admin-pro{
+ height: 10vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.side li{
+    font-size: 24px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+}
+.side li:hover{
+    background: white;
+    color: blueviolet;
+}
+a{
+    list-style: none;
+    color: white;
+}
